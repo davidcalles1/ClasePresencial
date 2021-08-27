@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Inicio";
+}
+@using (Html.BeginForm("login", "Seguridad", FormMethod.Post))
+{
+
+<label>Ingrese sus datos </label>
+<br>
+<label for="usuario">USUARIO</label>
+<br>
+<input type="text" name="usuario" required placeholder="Escribe tu dui">
+<br>
+<label for="dui">DUI</label>
+<br>
+<input type="number" name="dui" required placeholder="Escribe tu dui">
+<br>
+<br>
+<input type="submit">
+
+
+
+}
